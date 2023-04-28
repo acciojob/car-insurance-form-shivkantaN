@@ -8,12 +8,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-<form method="POST" action="#">
-	<lable for="name">Name8</lable>
-	<input type="text" id="name">
+<form method="POST">
+	<lable for="name">Name*</lable>
+	<input type="text" id="name" name="name" required>
 	
 	<lable for="email">Email*</lable>
-	<input type="text" id="email" required>
+	<input type="text" id="email" name="email" required>
 	
   <label for="gender">Gender*</label><br>
   <input type="radio" name="gender" value="male" required>
@@ -29,26 +29,16 @@
   </select>
 
   <label for="carage">Car Age*</label>
-  <input type="number" id="carage" name="Car Age"  required>
+  <input type="number" id="carage" name="carage"  required>
 
   <label for="dop">date of Purchase*</label>
-  <input type="date" id="dop" name="date of Purchase" required>
+  <input type="date" id="dop" name="dop" required>
 
   <label for="password">Password*</label>
   <input type="password" id="password" name="password" required>
 
    <button type="submit">Submit</button>
 	
-	
-		
-
-
-
-
-
-
-
-		
 </form>
     <script type="text/javascript" src="./script.js">
 </script>
